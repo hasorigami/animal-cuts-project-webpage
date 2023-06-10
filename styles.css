@@ -1,0 +1,91 @@
+html body {
+  background-color:rgb(218, 255, 221);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#headerData {
+  font-size:0.5em;
+  align-self: center;
+
+}
+
+#animalTitle {
+  color: rgb(24, 97, 40);
+}
+
+#cutsTitle {
+  color: black;
+}
+
+h2 {
+  align-self: center;
+}
+
+.bodyElement {
+  background-color: rgb(159, 219, 159);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav li {
+  font-size: 1.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-weight: bold;
+}
+
+/* NAV BAR TEXT */
+a.nav-link{
+  color: white;
+}
+
+.navbarElement {
+  background-color: darkgreen;
+}
+
+.buttonElement {
+  background-color: green;
+  color: white;
+}
+
+.serviceElement {
+  background-color: rgb(116, 192, 126);
+  min-height: 12em;
+  padding: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.staffCard {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex: auto;
+  flex-shrink: 0;
+  max-width: 15rem;
+  width: 15rem;
+  
+}
+
+.scroll {
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.aboutElement {
+  margin-top: 2rem;
+}
+
+.footerElement {
+  background-color: rgb(72, 110, 72);
+}
+
+.footerElement p {
+  color: lightgray;
+}
