@@ -32,8 +32,10 @@ h2 {
 
 nav li {
   font-size: 1.5em;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  justify-content: center;
+  min-width: 10rem;
   font-weight: bold;
 }
 
@@ -83,9 +85,19 @@ a.nav-link{
 }
 
 .footerElement {
-  background-color: rgb(72, 110, 72);
+  background-color: darkgreen;
 }
 
 .footerElement p {
-  color: lightgray;
+  font-weight: bold;
+  color: rgb(249, 249, 249);
+}
+
+.imageElement {
+  padding: 1em;
+}
+
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
 }
