@@ -9,20 +9,24 @@ h1 {
 #headerData {
   font-size:0.5em;
   align-self: center;
-
+  padding: 0%;
+  line-height: 0%;
 }
+
 
 #animalTitle {
   color: rgb(24, 97, 40);
+  font-size: 2.5em;
+  margin-bottom: none;
+  
 }
 
 #cutsTitle {
   color: black;
+  font-size: 2.5em;
 }
 
-h2 {
-  align-self: center;
-}
+
 
 .bodyElement {
   background-color: rgb(159, 219, 159);
@@ -68,10 +72,19 @@ a.nav-link{
   margin-bottom: 1rem;
   flex: auto;
   flex-shrink: 0;
-  max-width: 15rem;
-  width: 15rem;
-  
+  max-width: 25rem;
+  width: 20rem;
+  background-color: rgb(207, 238, 207);
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: green;
+ 
 }
+
+.staffCard h3 {
+  font-size: 1.5em;
+}
+
 
 .scroll {
   flex: 1;
@@ -82,6 +95,15 @@ a.nav-link{
 
 .aboutElement {
   margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutElement h1 {
+  font-size: 4em;
+}
+
+.aboutElement p {
+  font-size: 1.5em;
 }
 
 .footerElement {
@@ -101,3 +123,98 @@ a.nav-link{
   display: flex;
   flex-wrap: wrap;
 }
+
+
+.formTab {
+  display: none;
+  margin: 2em;
+  padding: 2em;
+  text-align: center;
+  background-color: rgb(116, 192, 126);
+  outline-width: 8px;
+  outline-style: solid;
+  outline-color: darkgreen;
+}
+
+.firstPage {
+
+}
+
+#mainForm {
+  margin: 1em;
+}
+
+/* Calendar Section Begin */
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: darkgreen;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: green;
+  color: white !important
+}
+
+/* Calendar section end */
+
